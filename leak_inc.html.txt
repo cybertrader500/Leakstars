@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leak Inc</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: white;
+    }
+    .header {
+      background: #2196F3;
+      color: white;
+      padding: 8px;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .main-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      padding: 20px 0;
+      border-bottom: 3px solid black;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .yellow-banner {
+      background-color: #FFD700;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      color: #000;
+    }
+    .videos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .video-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .video-card {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <a href="#" style="color: white; text-decoration: none; margin-right: 10px;">À propos</a>
+      <a href="#" style="color: white; text-decoration: none; margin-right: 10px;">Plus de leaks</a>
+    </div>
+    <div>
+      mercredi, avril 23, 2025
+      <a href="#" style="color: white; text-decoration: none; margin-left: 15px;">Connexion</a>
+      <a href="#" style="color: white; text-decoration: none; margin-left: 10px;">S'inscrire</a>
+      <input type="text" placeholder="Recherche ..." style="margin-left: 10px;">
+    </div>
+  </div>
+
+  <div class="main-header">Leak Inc</div>
+
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">Dossiers téléchargeables</a>
+    <a href="#">Charte de l'information</a>
+    <a href="#">Charte des commentaires</a>
+  </nav>
+
+
+  <div class="videos-grid">
+    <!-- Miniatures de vidéos -->
+    <!-- Tu peux remplacer les liens YouTube si tu veux d'autres images -->
+    <!-- Exemple : https://img.youtube.com/vi/<VIDEO_ID>/0.jpg -->
+    <!-- Ici, toutes pointent vers la vidéo de Rick Astley (mème classique) -->
+    <!-- Copie-colle d'autres miniatures si tu veux plus de variété -->
+
+    <!-- Généré 1 à 20 -->
+    <!-- Tu peux cliquer sur l'image pour ajouter un lien plus tard si tu veux -->
+    <!-- Exemple : <a href="https://youtube.com/..."><img src=...></a> -->
+    <!-- Chaque miniature est suivie de son titre -->
+    <!-- Elles sont centrées grâce à la grille CSS -->
+
+    <!-- Boucle HTML simulée pour affichage -->
+    <!-- Tu peux copier ce bloc 20 fois en changeant le texte si tu veux -->
+    <!-- Ou faire une version JS si tu veux automatiser -->
+    <!-- Voici les 20 blocs : -->
+
+    <!-- Miniatures Leak 1 à 20 -->
+    <!-- Pour gagner de la place ici, j'en mets que quelques-uns et indique la suite -->
+    <!-- Tu peux les copier/coller pour compléter -->
+
+    <div class="video-card">
+      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Leak 1">
+      <div>Leak Numéro 1</div>
+    </div>
+    <div class="video-card">
+      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Leak 2">
+      <div>Leak Numéro 2</div>
+    </div>
+    <div class="video-card">
+      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Leak 3">
+      <div>Leak Numéro 3</div>
+    </div>
+    <!-- ... jusqu'à Leak 20 -->
+    <div class="video-card">
+      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Leak 20">
+      <div>Leak Numéro 20</div>
+    </div>
+  </div>
+</body>
+</html>
